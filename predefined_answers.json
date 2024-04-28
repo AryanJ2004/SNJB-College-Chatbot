@@ -1,0 +1,482 @@
+{
+    "questions": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "what's up",
+          "hi","hey","how's it going",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what is your name", "name", "what's your name","who are you","what should I call you"],
+        "responses": [
+          "I'm AI ASSIST FOR SNJB COE(Computer Department)"
+        ]
+      },
+      {
+        "tag": "courses",
+        "patterns": ["what courses are available", "how many courses are there in this college"],
+        "responses": ["The available courses in SNJB COE: \n\n1. BE(Bachelor of Engineering) in CS , AI , CIVIL , MECH ,ECE ,etc \n\n2. MBA"]
+      },
+      {
+        "tag": "College Name",
+        "patterns": ["College Name","Name College"],
+        "responses": ["SNJB's LATE Sau K.B. Jain College Of Engineering"]
+      },
+      {
+        "tag": "College Information",
+        "patterns": ["College Information","Information Of College","SNJB","SNJBCOE"],
+        "responses": ["SNJB's LATE Sau K.B. Jain College Of Engineering Is NAAC Accredited With A+ Grade\nThe Jain Gurukul campus has various faculties, out of which the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering, \nwhich is approved by the All India Council of Technical Education (AICTE), New Delhi and Government of Maharashtra and is affiliated to the University of Pune, \nwas established in the year 2004 with four branches viz. Mechanical Engineering, Computer Engineering, Electronics & Telecommunications Engineering and Civil Engineering.\nIn the year 2010 saw the assimilation of MBA under the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering. Similarly, the year 2020 viewed the establishment of a new branch of Artificial Intelligence and Data Science.\nThis college has a fascinating infrastructure, well-furnished and well-equipped laboratories.\n A technologically full-fledged auditorium, spacious classrooms, well developed central library with thousands of volumes constitute the profound features of the college. Every department has a separate departmental library.\nAn army of technicians is employed in every department to resolve the technical problems. The college has a separate Training and Placement cell that contributes in training the students for interview and their placement after the completion of their degree courses.\nChandwad town, situated in a taluka region, boasts convenient access to essential amenities. Located at a distance of 65 km from Nasik, it enjoys excellent road connectivity through NH 3. The town is also easily accessible from Manmad railway station, which is 24 km away, and can be reached via Nasik (Ojhar) airport, located 55 km from Chandwad."]
+      },
+      {
+        "tag": "courseDuration",
+        "patterns": [
+          "how long will be BE or MBA course",
+          "how long will it take to complete M.Tech ",
+          "how long will it take to complete BE"
+        ],
+        "responses": [
+          "Our college offers 4 year course for B.E.\n 2 year course for MBA."
+        ]
+      },
+      {
+        "tag": "Location",
+        "patterns": [
+          "location",
+          "where is it located",
+          "what is the location of the college"
+          
+        ],
+        "responses": [
+          "SNJB College of Engineering is located in Neminagar, Chandwad, Nashik, Maharashtra, India"
+        ]
+      },
+      {
+        "tag": "semesters",
+        "patterns": [
+          "how many semesters are there in a year",
+          "how many semesters one should study in a year"
+        ],
+        "responses": [
+          "There are two semesters in a year."
+        ]
+      },
+      {
+        "tag": "semDuration",
+        "patterns": [
+          "what is the duration of a semester",
+          "how long will a semester be"
+        ],
+        "responses": [
+          "A single semester will be around 4 to 5 months."
+        ]
+      },
+      {
+        "tag": "studentRequirements",
+        "patterns": [
+          "what are the student requirements for admission",
+          "entry requirements",
+          "admission requirements"
+        ],
+        "responses": [
+          "H.S.C. 134/135 out of 300 (Minimum 45% marks in PMC /IT / Biology / Bio- Tech /Tech. Vocational)\n120 out of 300 (Minimum 40% marks in PMC /IT / Biology / Bio- Tech /Tech. Vocational) for reserved categery\nMHT-CET And JEE"
+        ]
+      },
+      {
+        "tag": "sem",
+        "patterns": [
+          "how many semesters are there in a year",
+          "how many semesters one should study in a year"
+        ],
+        "responses": [
+          "There are two semesters in a year."
+        ]
+      },
+      
+      {
+        "tag": "Teachingstyle",
+        "patterns": [
+          "What is the teaching style of this college?",
+          "Is the teaching pattern different from other college?", "What is the teaching format?"
+        ],
+        "responses": [
+          "Our college has diffrent teaching patterns than other colleges. We adopt a effective teaching methodology,following the LTO techniques which many colleges don't."
+        ]
+      },
+      
+      {
+        "tag": "exams",
+        "patterns": [
+          "What are the exams like?",
+          "What is the exam pattern?"
+        ],
+        "responses": [
+          "There are assignments which carry marks.The assignments have deadlines which you shouldn't excede to get better marks.You will also have 2 internals in a sem."
+        ]
+      },
+      
+      {
+        "tag": "Timings",
+        "patterns": [
+          "What are your timings? "
+        ],
+        "responses": [
+          "You can message us at any hour but our college premises would be open from 8 am to 5 pm."
+        ]
+      },
+      
+      {
+        "tag": "Fun activity",
+        "patterns": [
+          "Will there be any extra curricular activities?",
+          "Does the college conduct any fun program?"
+        ],
+        "responses": [
+          "Yes,of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities."
+        ]
+      },
+      
+      {
+        "tag": "Facilities",
+        "patterns": [
+          "What facilities are provided by the college?",
+          "What are the facilities of college for students?"
+        ],
+        "responses": [
+          "With excellent education facilities,our college provides various other facilities like wifi,hostel facility,canteen,parking space,etc."
+        ]
+      },
+      {
+        "tag": "Thanks",
+        "patterns": [
+          "Thank You ","Thanks","That's helpful","Thanks for helping me."
+        ],
+        "responses": [
+          "Happy to help.","Anytime!","My pleasure."
+        ]
+      },
+      {
+        "tag": "KMSHOD",
+        "patterns": [
+          "HOD ",
+          "Head of department",
+          "Sanghavi",
+          "HOD Cabin-130",
+          "K.M. Sanghavi."
+        ],
+        "responses": [
+          "Prof. K.M. Sanghavi- Head of Computer Department\nLab Location-130\nResponsibility-Administrative Coordinator\nNBA Coordinator\nNAAC Coordinator\nIQAC Coordinator\nICC Chairman\nCollege Development Committee Member\nEvent Coordinator\nSeminar Coordinator"
+        ]
+      },
+      {
+        "tag": "B.A.Khivsara",
+        "patterns": [
+          "Khivsara Mam ",
+          "Lab Location-132"
+        ],
+        "responses": [
+          "Prof. B.A. Khivsara Mam\nResponsibility-Academic Coordinator\nS&IC Coordinator\nMentor Coordinator\nModule Coordinator \nNBA Criteria-2 Coordinator\nNAAC 2.5 Criteria\nFDP Coordinator\nSSDC Coordinator\nF. E. Councilor\nICC Member\nIndia-Today Coordinator\nCollege Development Committee\nAICTE Lilawati Award Coordinator\nLab Location-132"
+        ]
+      },
+      {
+        "tag": "N.S. Khairnar",
+        "patterns": [
+          "Khairnar Mam ",
+          "Lab Location-132"
+        ],
+        "responses": [
+          "Prof. Nilam S. Khairnar Mam\nLab Location-133\nResponsibility-Girls Sports Incharge\nAnti Ragging Squad\nDiscipline Committee Member\nDigital Resource Cell Member\nTime Table Incharge\nAcademic Calendar Incharge\nEarn and Learn Coordinator\nPBS Coordinator\nSoftware Lab Incharge\nSMS Coordinator\nSE Class Coordinator"
+        ]
+      },
+      {
+        "tag": "S.S. Wadnere",
+        "patterns": [
+          "Wadnere Sir ",
+          "Sandeep Sir",
+          "Sandeep Wadnere",
+          "Lab Location-135"
+        ],
+        "responses": [
+          "Prof. S.S. Wadnere Sir  \nLab Location-135\nResponsibility-NBA Criteria-6 Coordinator\nDeadstock Incharge\nHL Lab Incharge\nBudget Coordinator\nServer Room Maintenance\nComputer Maintenance\nInternet Maintenance\nFE Class Coordinator\nMentor for FE and SE students\nCCTV maintenance\nMagazine Coordinator\nCollege level NBA Criteria"
+        ]
+      },
+      {
+        "tag": "P.S. Desai",
+        "patterns": [
+          "Desai Sir ",
+          "Pankaj Sir",
+          "Lab Location-134",
+          "Compute Center A",
+          "Compute Center B"
+        ],
+        "responses": [
+          "Prof. P.S. Desai \nLab Location-134\nResponsibility-FC- Coordinator\nIII Cell Coordinator\nDepartment NAAC Coordinator\nDepartment Admin coordinator\nDepartment Budget coordinator\nFE-Class Coordinator\nIIRS Outreach program Coordinator\nVision -Mission Coordinator\nDepartment Internship Coordinator\nAICTE-Parakh coordinator"
+        ]
+      },
+      {
+        "tag": "M.R. Sanghavi",
+        "patterns": [
+          "Sanghavi Sir ",
+          "Vice-Principal",
+          "Lab Location-131"
+        ],
+        "responses": [
+          "Prof. Mahesh R. Sanghavi \nLab Location-131\nResponsibility-Dean Academics\nVice Principal\nSPOC - ERP\nComputer/Equipment Purchasing\nComp.Maintenance\nAdmission Incharge FE"
+        ]
+      },
+      {
+        "tag": "Prof. D. R. Agrawal",
+        "patterns": [
+          "Agrawal Sir",
+          "DR Agrawal",
+          "Agrawal",
+          "Prof. Agrawal",
+          "Lab Location-137"
+          
+        ],
+        "responses": [
+          "Prof. D. R. Agrawal\nLab Location-137\nResponsibilities:- NSS\n- NPTEL\n- Virtual Labs\n- Unnat Bharat Abhiyaan\n- TE Class Coordinator\n- National Anthem\n- Data Collection for various surveys\n- Sustainability Cell Coordinator\n- Earn and Learn\n- R&D Coordinator\n- NAAC Criteria 1\n- Open Source Lab Incharge\n- Linux RED HAT Center"
+        ]
+      },
+      {
+        "tag": "R. R. Bhandari",
+        "patterns": [
+          "Bhandari Sir",
+          "RR Bhandari",
+          "Bhandari",
+          "Prof. Bhandari"
+        ],
+        "responses": [
+          "Prof. R. R. Bhandari\nResponsibilities:- Criteria 5\n- CS Lab Incharge\n- Academic Calendar Coordinator\n- Alumni Coordinator (Department Level)\n- Alumni Coordinator (College Level)\n- III Co-cordinator\n- Cyber Cell Program Lab Incharge\n- CSI SBC\n- CSI Committee Member (Nashik Chapter)\n- Digital Marketing Coordinator College Level\n- Zoom & Youtube Program Coordinator\n- News Bulletin Coordinator\n- Consultancy Coordinator\n- Criteria 2.2 Coordinator\n- Department Level Design Work\n- Website Coordinator\n- DSE Admission\n- Visiting Faculty Coordinator\n- Module Coordinator\n- SNJB Festival Technical Committee"
+        ]
+      },
+      {
+        "tag": "A.J.Shakadwipi",
+        "patterns": [
+          "Shakadwipi Sir",
+          "AJ Shakadwipi",
+          "Prof. Shakadwipi",
+          "Lab Location-119"
+        ],
+        "responses": [
+          "Prof. A.J. Shakadwipi\nLab Location-119\nResponsibilities:- Result Analysis I/C\n- Feedback Analysis I/C\n- Result Coordinator (Institute level)\n- ERP DCC\n- SE-A Class CO-ORDINATOR\n- SMS Incharge\n- NBA Criteria -4 Coordinator\n- NAAC Criteria 2.6 coordinator\n- Mentor of 25 Student\n- Operating System Lab 238 I/C\n- Anti Ragging Sqaud\n- SPACE Co-Cordinator"
+        ]
+      },
+      {
+        "tag": "G.P. Dhomse",
+        "patterns": [
+          "Dhomse Sir",
+          "GP Dhomse",
+          "Prof. Dhomse",
+          "Lab Location-137",
+          "Networking Lab"
+        ],
+        "responses": [
+          "Prof. G.P. Dhomse\nLab Location-137\nResponsibilities:\n- T & P Co-ordinator\n- Gate Exam Co-ordinator\n- University OR/PR/Insem Exam Incharge\n- Continuous Assessment Sheet\n- CNL Lab Incharge\n- NBA 2.2.4 4.5,7.3,9.5 Sub Criteria"
+        ]
+      },
+      {
+        "tag": "S.V.Sinha",
+        "patterns": [
+          "Sinha Mam",
+          "SV Sinha",
+          "Prof. Sinha",
+          "Lab Location-119"
+        ],
+        "responses": [
+          "Prof.S.V. Sinha\nLab Location-119\nResponsibilities:\n- MOM coordinator\n- Result Coordinator\n- Feedback coordinator\n- Feedback coordinator (NAAC)\n- 360 degree Feedback coordinator\n- Mentor Coordinator\n- Gate Coordinator\n- Staff Higher Studies\n- SSDC cell\n- Module Coordinator\n- APL LAB I/C\n- Seminar Coordinator\n- R & D coordinator\n- Website Coordinator\n- Project Coordinator\n- SPACE Cordinator"
+        ]
+      },
+      {
+        "tag": "D.P,Pawar",
+        "patterns": [
+          "Pawar Mam",
+          "DP Pawar",
+          "Deepali Mam",
+          "Prof. Pawar",
+          "Computer Science Lab",
+          "Lab Location-110A"
+        ],
+        "responses": [
+          "Prof.D.P. Pawar\nLab Location-110A\nResponsibilities:\n- Staff Achivement Cordinator\n- Student's Achivement Cordinator\n- Notice Board Incharge\n- Criteria 5\n- Lab Incharge(Programming Lab)\n- E-Saptrang Singing Cordinator\n- Clutural Club Singing Cordinator\n- Counsiling commitee cordinator\n- Criteria 4.6 Cordinator\n- Monthly Report Cordinator\n- Minutes of meeting Co-cordinator"
+        ]
+      },
+      {
+        "tag": "N. P. Bora",
+        "patterns": [
+          "Bora Mam",
+          "NP Bora",
+          "Neha Mam",
+          "Prof. Bora",
+          "Lab Location-110B",
+          "Computer Graphics Lab"
+        ],
+        "responses": [
+          "Prof.N. P. Bora\nLab Location-110B\nResponsibilities:\n- IQAC Committee Member\n- Central Library Committee Member\n- Digital Resource Cell Incharge\n- Alumni Committee Member\n- NAAC Departmental Coordinator\n- Time Table Incharge\n- Computer Graphics Lab I/C\n- Class Coordinator SE/TE\n- NAAC Criteria 2.3 coordinator\n- Departmental Library Coordinator\n- Digital Learning Daily Report\n- Coursera Course Coordinator\n- Ekeeda Digital Library Coordinator\n- Module Coordinator"
+        ]
+      },
+      {
+        "tag": "S. B. Ambhore",
+        "patterns": [
+          "Ambhore Sir",
+          "SB Ambhore",
+          "Prof. Ambhore",
+          "Lab Location-136",
+          "Software Lab"
+        ],
+        "responses": [
+          "Prof.S. B. Ambhore\nLab Location-136\nResponsibilities:\n- Internal Exam Coordinator\n- Software Laboratory In-Charge\n- SPACE Coordinator\n- NBA 2.2.2- Sub Criteria\n- Smart India Hackathon SPOC\n- AICTE-ECI-ISTE-Chhatra Vishwakarma Awards SPOC\n- SC/ST Cell Incharge\n- Mission Practical"
+        ]
+      },
+      {
+        "tag": "S.A.Chavan",
+        "patterns": [
+          "Chavan Sir",
+          "SA Chavan",
+          "Prof. Chavan",
+          "Lab Location-220",
+          "Computer Lab I"
+        ],
+        "responses": [
+          "Prof.S.A. Chavan\nLab Location-220\nResponsibilities:\n- Computer Lab I Incharge\n- IT DeadStock Incharge\n- Class Coordinator SE Comp B\n- IT News Coordinator\n- Girls Common Room Incharge\n- Mission Practical Incharge\n- Virtual Lab Nodal Technical Coordinator\n- State level DSE Paper Presentation Member\n- Sustainability Cell Member\n- Canteen Comitee Coordinator\n- Discipline Committee Member\n- Deadstock Verification Comitee Member\n- Alumini Comitee Member\n- Ezacus Technology Pvt ltd Sponsor Lab activity\n- Cultural Dance Audition Incharge"
+        ]
+      },
+      {
+        "tag": "M.D.KAWADE",
+        "patterns": [
+          "Kawade Mam",
+          "MD KAWADE",
+          "Prof. KAWADE",
+          "Lab Location-114",
+          "Hardware Lab"
+        ],
+        "responses": [
+          "Prof.M.D. KAWADE\nLab Location-114\nResponsibilities:\n- Member of Takarakr Nivaran Samittee\n- Project Coordinator\n- Alumni Coordinator of IT dept.\n- Digital Lab incharge\n- Cleaning Incharge\n- Class room incharge\n- Acadmic Coordinator\n- Gate Coordinator\n- SSDC cell coordinator\n- Earn and Learn\n- Linux RED HAT Center"
+        ]
+      },
+      {
+        "tag": "D. S. Rajnor",
+        "patterns": [
+          "Rajnor Sir",
+          "DS Rajnor",
+          "Prof. Rajnor"
+        ],
+        "responses": [
+          "Prof.D. S. Rajnor\nResponsibilities:\n- BE Class Coordinator\n- Project Coordinator\n- Project Lab Incharge\n- Dept News Coordinator\n- Dept National Anthem Incharge\n- Member of Social awareness committee\n- Calling committee in charge for chandwad region\n- Mentor of Autonous Vehicales Tech Challenge for 2021-23\n- Class Room Incharge\n- Member of training and placement cell\n- Editor of project booklet PRAKALP\n- Auditorium Incharge"
+        ]
+      },
+      {
+        "tag": "K.R.Nirmal",
+        "patterns": [
+          "Nirmal Mam",
+          "Khyati Mam",
+          "KR Nirmal",
+          "Prof. Nirmal",
+          "Lab Location-232"
+        ],
+        "responses": [
+          "Prof.K.R. Nirmal\nLab Location-232\nResponsibilities:\n- Department NBA Coordinator\n- NBA Criteria 7\n- Computer Laboratory II Lab Incharge\n- Member of College Devlopment Cell\n- Digital Marketing Committee member (Image Designer)\n- STUDENTS GRIEVANCE REDRESSAL CELL"
+        ]
+      },
+      {
+        "tag": "S B Mahale",
+        "patterns": [
+          "Mahale Sir",
+          "SB Mahale",
+          "Prof. Mahale"
+        ],
+        "responses": [
+          "Prof.S. B. Mahale\nResponsibilities:\n- ERP PC\n- Admission Enquiries Incharge (through Website)\n- T&P Member\n- Event Coordinator\n- III Co-cordinator\n- Digital Intractive Lab Incharge\n- Mentor for TE Students\n- Auditorium In-Charge\n- NSS Co-Cordinator\n- ERP Admission Form Filling Cordinator\n- I- Card Setup & Print Cordinator"
+        ]
+      },
+      {
+        "tag": "A.R.Bramhecha",
+        "patterns": [
+          "Bramhecha Sir",
+          "AR Bramhecha",
+          "Prof. Bramhecha"
+        ],
+        "responses": [
+          "Prof.A.R. Bramhecha\nResponsibilities:\n- Website Coordinator\n- TnP Member\n- IAITE Student Chapter - coordinator\n- SIC Coordinator\n- Industrial Visit Coordinator\n- Digital Maketing Coordinator"
+        ]
+      },
+      {
+        "tag": "Y.K.Desai",
+        "patterns": [
+          "Desai mam",
+          "Yogita mam",
+          "YK Desai",
+          "Prof. Desai",
+          "Lab Location-233"
+        ],
+        "responses": [
+          "Prof.Y.K. Desai\nLab Location-233\nResponsibilities:\n- ICC member\n- Central Library Committie Member\n- Mission Writing Skills Coordinator\n- Internal Exam coordinator\n- University OR/PR/Insem Exam Incharge\n- PL Lab Incharge\n- Dept. Library Incharge\n- Notice Board Incharge\n- Website Coordinator"
+        ]
+      },
+      {
+        "tag": "L.I.Surana",
+        "patterns": [
+          "Surana mam",
+          "L.I Surana",
+          "Prof. Surana",
+          "Lab Location-101",
+          "Programming Lab"
+        ],
+        "responses": [
+          "Prof.L.I. Surana\nLab Location-101\nResponsibilities:\n- ERP DCC\n- ERP Library Module\n- Honour Course Incharge\n- Computer Center Lab Incharge"
+        ]
+      },
+      {
+        "tag": "Gunjan Deshmukh",
+        "patterns": [
+          "Deshmukh Mam",
+          "Gunjan Deshmukh",
+          "Prof. Deshmukh",
+          "Lab Location-234",
+          "Computer Laboratory 2"
+        ],
+        "responses": [
+          "Prof.Gunjan Deshmukh\nLab Location-234\nResponsibilities:\n- Class Coordinator\n- Lab Incharge(Linux lab)\n- 360 Degree\n- Admission Duties"
+        ]
+      },
+      {
+        "tag": "Lab Locations",
+        "patterns": [
+          "Labs",
+          "All Labs",
+          "Computer Lab",
+          "Lab and their Location"
+        ],
+        "responses": [
+          "All Labs:\n- Software Lab - 136\n- Networking Lab - 137\n- Computer Graphics Lab - 110A\n- Computer Science Lab - 110B\n- Project Lab - 133\n- Advanced Programming Lab - 115\n- Hardware Lab - 114\n- Programming Lab - 101\n- Computer Laboratory 1 - 220\n- Computer Laboratory 2 - 234\n- Compute Center A - 134\n- Compute Center B - 135\n- HoD Cabin - 130\n- Faculty Room I - 131\n- Faculty Room II - 132\n- Faculty Room III - 232\n- Faculty Room IV - 233"
+        ]
+      },
+      {
+        "tag": "Parag Achaliya",
+        "patterns": [
+          "Achaliya Sir",
+          "Parag Achaliya",
+          "Prof. Achaliya",
+          "Achaliya Sir",
+          "Lab Location-136"
+        ],
+        "responses": [
+          "Prof.Parag Achaliya\nLab Location-136\nResponsibilities:\n- SNJB Website\n- Official Email Coordinator\n- Facebook Coordinator\n- Presentation Preparation\n- Education Loan Counselor\n- Alumni Treasurer\n- Minority Cell\n- Festival Image Design\n- Training & Placement Coordinator\n- Staff Achievement Coordinator\n- Student Achievement Coordinator\n- CAP Data Coordinator\n- Data Coordinator for Various Survey\n- NPTEL Coordinator\n- Admission Work\n- e-Certification Work\n- NSS Cordinator"
+        ]
+      }
+    ]
+  }
+  
