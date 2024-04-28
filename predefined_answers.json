@@ -174,8 +174,11 @@
           "HOD ",
           "Head of department",
           "Sanghavi Mam",
-          "HOD Cabin-130",
-          "K.M. Sanghavi."
+          "HOD Cabin-130","130",
+          "K.M. Sanghavi",
+          "Administrative Coordinator",
+          "NBA Coordinator",
+          "Event Coordinator"
         ],
         "responses": [
           "Prof. K.M. Sanghavi- Head of Computer Department\nLab Location-130\nResponsibility-Administrative Coordinator\nNBA Coordinator\nNAAC Coordinator\nIQAC Coordinator\nICC Chairman\nCollege Development Committee Member\nEvent Coordinator\nSeminar Coordinator"
@@ -185,7 +188,12 @@
         "tag": "B.A.Khivsara",
         "patterns": [
           "Khivsara Mam ",
-          "Lab Location-132"
+          "Lab Location-132",
+          "Academic Coordinator",
+          "S&IC Coordinator",
+          "S&IC Coordinator",
+          "Mentor Coordinator",
+          "Module Coordinator","132"
         ],
         "responses": [
           "Prof. B.A. Khivsara Mam\nResponsibility-Academic Coordinator\nS&IC Coordinator\nMentor Coordinator\nModule Coordinator \nNBA Criteria-2 Coordinator\nNAAC 2.5 Criteria\nFDP Coordinator\nSSDC Coordinator\nF. E. Councilor\nICC Member\nIndia-Today Coordinator\nCollege Development Committee\nAICTE Lilawati Award Coordinator\nLab Location-132"
@@ -195,7 +203,19 @@
         "tag": "N.S. Khairnar",
         "patterns": [
           "Khairnar Mam ",
-          "Lab Location-132"
+          "Lab Location-132",
+          "132",
+          "Girls Sports Incharge",
+          "Anti Ragging Sqaud",
+          "Discipline Committee Member",
+          "Digital Resource Cell Member",
+          "Time Table Incharge",
+          "Academic Calender Incharge",
+          "Earn and Learn Coordinator",
+          "PBS Coordinator",
+          "Software Lab Incharge",
+          "SMS Coordinator"
+          
         ],
         "responses": [
           "Prof. Nilam S. Khairnar Mam\nLab Location-133\nResponsibility-Girls Sports Incharge\nAnti Ragging Squad\nDiscipline Committee Member\nDigital Resource Cell Member\nTime Table Incharge\nAcademic Calendar Incharge\nEarn and Learn Coordinator\nPBS Coordinator\nSoftware Lab Incharge\nSMS Coordinator\nSE Class Coordinator"
@@ -207,7 +227,21 @@
           "Wadnere Sir ",
           "Sandeep Sir",
           "Sandeep Wadnere",
-          "Lab Location-135"
+          "Lab Location-135",
+          "135",
+          "NBA Criteria-6 Coordinator",
+          "Deadstock Incharge ",
+          "HL Lab Incharge",
+          "Budget Coordinator",
+          "Server Room Maintenance ",
+          "Computer Maintenance",
+          "Internet Maintenance ",
+          "FE Classcordinator",
+          "Mentor for FE and SE students",
+          "CCTV maintenance ",
+          "Magazine Coordinator",
+          "College level NBA Criteria"
+          
         ],
         "responses": [
           "Prof. S.S. Wadnere Sir  \nLab Location-135\nResponsibility-NBA Criteria-6 Coordinator\nDeadstock Incharge\nHL Lab Incharge\nBudget Coordinator\nServer Room Maintenance\nComputer Maintenance\nInternet Maintenance\nFE Class Coordinator\nMentor for FE and SE students\nCCTV maintenance\nMagazine Coordinator\nCollege level NBA Criteria"
@@ -219,8 +253,20 @@
           "Desai Sir ",
           "Pankaj Sir",
           "Lab Location-134",
+          "134",
           "Compute Center A",
-          "Compute Center B"
+          "Compute Center B",
+          "FC- Coordinator",
+          "III Cell Coordinator",
+          "Department NAAC Coordinator",
+          "Department Admin coordinator",
+          "Department Budget coordinator",
+          "FE-Class Coordinator",
+          "IIRS Outreach program Coordinator",
+          "Vision -Mission Coordinator",
+          "Department Internship Coordinator",
+          "AICTE-Parakh cordinator"
+          
         ],
         "responses": [
           "Prof. P.S. Desai \nLab Location-134\nResponsibility-FC- Coordinator\nIII Cell Coordinator\nDepartment NAAC Coordinator\nDepartment Admin coordinator\nDepartment Budget coordinator\nFE-Class Coordinator\nIIRS Outreach program Coordinator\nVision -Mission Coordinator\nDepartment Internship Coordinator\nAICTE-Parakh coordinator"
@@ -231,7 +277,15 @@
         "patterns": [
           "Sanghavi Sir ",
           "Vice-Principal",
-          "Lab Location-131"
+          "Lab Location-131",
+          "131","Mahesh Sir",
+          "Dean Academics",
+          "Vice Principal",
+          "SPOC - ERP",
+          "Computer/Equipment Purchasing",
+          "Comp.Maintenance",
+          "Admission Incharge FE"
+          
         ],
         "responses": [
           "Prof. Mahesh R. Sanghavi \nLab Location-131\nResponsibility-Dean Academics\nVice Principal\nSPOC - ERP\nComputer/Equipment Purchasing\nComp.Maintenance\nAdmission Incharge FE"
@@ -244,7 +298,21 @@
           "DR Agrawal",
           "Agrawal",
           "Prof. Agrawal",
-          "Lab Location-137"
+          "Lab Location-137",
+          "137","NSS",
+          "NPTEL",
+          "Virtual Labs",
+          "Unnat Bharat Abhiyaan",
+          "TE Class Coordinator",
+          "National Anthemn",
+          "Data Collection for various surveys",
+          "sustainability cell coordinator",
+          "Earn and Learn",
+          "R & D coordinator",
+          "NAAC Criteria 1",
+          "Open Source Lab Incharge",
+          "Linux RED HAT Center "
+          
           
         ],
         "responses": [
@@ -257,7 +325,28 @@
           "Bhandari Sir",
           "RR Bhandari",
           "Bhandari",
-          "Prof. Bhandari"
+          "Prof. Bhandari",
+          "Criteria 5",
+          "CS Lab Incharge",
+          "Academic Calendar Coordinator",
+          "Alumni Coordinator (Department Level)",
+          "Alumni Coordinator (College Level)",
+          "III Co-cordinator",
+          "Cyber Cell Program Lab Incharge",
+          "CSI SBC",
+          "CSI Committee Member (Nashik Chapter)",
+          "Digital Marketing Coordinator College Level",
+          "Zoom & Youtube Program Coordinator",
+          "News Bulletin Coordinator",
+          "Consultancy Coordinator",
+          "Criteria 2.2 Coordinator",
+          "Department Level Design Work",
+          "Website Coordinator ",
+          "DSE Admission",
+          "Visiting Faculty Coordinator",
+          "Module Coordinator ",
+          "SNJB Festival Technical Committee"
+          
         ],
         "responses": [
           "Prof. R. R. Bhandari\nResponsibilities:- Criteria 5\n- CS Lab Incharge\n- Academic Calendar Coordinator\n- Alumni Coordinator (Department Level)\n- Alumni Coordinator (College Level)\n- III Co-cordinator\n- Cyber Cell Program Lab Incharge\n- CSI SBC\n- CSI Committee Member (Nashik Chapter)\n- Digital Marketing Coordinator College Level\n- Zoom & Youtube Program Coordinator\n- News Bulletin Coordinator\n- Consultancy Coordinator\n- Criteria 2.2 Coordinator\n- Department Level Design Work\n- Website Coordinator\n- DSE Admission\n- Visiting Faculty Coordinator\n- Module Coordinator\n- SNJB Festival Technical Committee"
@@ -269,7 +358,19 @@
           "Shakadwipi Sir",
           "AJ Shakadwipi",
           "Prof. Shakadwipi",
-          "Lab Location-119"
+          "Lab Location-119",
+          "119",
+          "Result Analysis I/C",
+          "Feedback Analysis I/C",
+          "Result Coordinator (Institute level)",
+          "ERP DCC",
+          "SE-A Class CO-ORDINATOR",
+          "SMS Incharge ",
+          "NBA Criteria -4 Coordinator",
+          "NAAC Criteria 2.6 coordinator",
+          "Mentor of 25 Student",
+          "Operating System Lab 238  I/C",
+          "Anti Ragging Sqaud"
         ],
         "responses": [
           "Prof. A.J. Shakadwipi\nLab Location-119\nResponsibilities:- Result Analysis I/C\n- Feedback Analysis I/C\n- Result Coordinator (Institute level)\n- ERP DCC\n- SE-A Class CO-ORDINATOR\n- SMS Incharge\n- NBA Criteria -4 Coordinator\n- NAAC Criteria 2.6 coordinator\n- Mentor of 25 Student\n- Operating System Lab 238 I/C\n- Anti Ragging Sqaud\n- SPACE Co-Cordinator"
@@ -282,7 +383,12 @@
           "GP Dhomse",
           "Prof. Dhomse",
           "Lab Location-137",
-          "Networking Lab"
+          "Networking Lab",
+          "137","T & P Co-ordinator",
+          "Gate Exam Co-ordinator",
+          "University OR/PR/Insem Exam Incharge",
+          "Continuous Assessment Sheet",
+          "CNL Lab Incharge"
         ],
         "responses": [
           "Prof. G.P. Dhomse\nLab Location-137\nResponsibilities:\n- T & P Co-ordinator\n- Gate Exam Co-ordinator\n- University OR/PR/Insem Exam Incharge\n- Continuous Assessment Sheet\n- CNL Lab Incharge\n- NBA 2.2.4 4.5,7.3,9.5 Sub Criteria"
@@ -294,7 +400,13 @@
           "Sinha Mam",
           "SV Sinha",
           "Prof. Sinha",
-          "Lab Location-119"
+          "Lab Location-119","119","APL LAB I/C",
+          "Module Coordinator",
+          "Seminar Coordinator ",
+          "R & D coordinator",
+          "Website Coordinator"
+          
+          
         ],
         "responses": [
           "Prof.S.V. Sinha\nLab Location-119\nResponsibilities:\n- MOM coordinator\n- Result Coordinator\n- Feedback coordinator\n- Feedback coordinator (NAAC)\n- 360 degree Feedback coordinator\n- Mentor Coordinator\n- Gate Coordinator\n- Staff Higher Studies\n- SSDC cell\n- Module Coordinator\n- APL LAB I/C\n- Seminar Coordinator\n- R & D coordinator\n- Website Coordinator\n- Project Coordinator\n- SPACE Cordinator"
@@ -308,7 +420,19 @@
           "Deepali Mam",
           "Prof. Pawar",
           "Computer Science Lab",
-          "Lab Location-110A"
+          "Lab Location-110A","Staff  Achivement Cordinator",
+          "Student's Achivement Cordinator",
+          "Notice Board Incharge",
+          "Criteria 5",
+          "Lab Incharge(Programming Lab)",
+          "E-Saptrang  Singing Cordinator",
+          "Clutural Club Singing Cordinator",
+          "Counsiling commitee cordinator",
+          "Criteria 4.6 Cordinator",
+          "Monthly Report Cordinator",
+          "Minutes of meeting Co-cordinator",
+          "110A"
+          
         ],
         "responses": [
           "Prof.D.P. Pawar\nLab Location-110A\nResponsibilities:\n- Staff Achivement Cordinator\n- Student's Achivement Cordinator\n- Notice Board Incharge\n- Criteria 5\n- Lab Incharge(Programming Lab)\n- E-Saptrang Singing Cordinator\n- Clutural Club Singing Cordinator\n- Counsiling commitee cordinator\n- Criteria 4.6 Cordinator\n- Monthly Report Cordinator\n- Minutes of meeting Co-cordinator"
@@ -322,7 +446,21 @@
           "Neha Mam",
           "Prof. Bora",
           "Lab Location-110B",
-          "Computer Graphics Lab"
+          "Computer Graphics Lab","110B","IQAC Committee Member",
+          "Central Library Committee Member",
+          "Digital Resource Cell Incharge",
+          "Alumni Committee Member",
+          "NAAC Departmental Coordinator",
+          "Time Table Incharge",
+          "Computer Graphics Lab I/C",
+          "Class Coordinator SE/TE",
+          "NAAC Criteria 2.3 coordinator",
+          "Departmental Library Coordinator",
+          "Digital Learning Daily Report",
+          "Coursera Course Coordinator",
+          "Ekeeda Digital Library Coordinator",
+          "Module Coordinator"
+          
         ],
         "responses": [
           "Prof.N. P. Bora\nLab Location-110B\nResponsibilities:\n- IQAC Committee Member\n- Central Library Committee Member\n- Digital Resource Cell Incharge\n- Alumni Committee Member\n- NAAC Departmental Coordinator\n- Time Table Incharge\n- Computer Graphics Lab I/C\n- Class Coordinator SE/TE\n- NAAC Criteria 2.3 coordinator\n- Departmental Library Coordinator\n- Digital Learning Daily Report\n- Coursera Course Coordinator\n- Ekeeda Digital Library Coordinator\n- Module Coordinator"
@@ -335,7 +473,12 @@
           "SB Ambhore",
           "Prof. Ambhore",
           "Lab Location-136",
-          "Software Lab"
+          "Software Lab","136","NBA 2.2.2- Sub Criteria",
+          "Smart India Hackathon  SPOC",
+          "AICTE-ECI-ISTE-Chhatra Vishwakarma Awards SPOC",
+          "SC/ST Cell Incharge",
+          "Mission Practical","Software Laboratory In-Charge"
+          
         ],
         "responses": [
           "Prof.S. B. Ambhore\nLab Location-136\nResponsibilities:\n- Internal Exam Coordinator\n- Software Laboratory In-Charge\n- SPACE Coordinator\n- NBA 2.2.2- Sub Criteria\n- Smart India Hackathon SPOC\n- AICTE-ECI-ISTE-Chhatra Vishwakarma Awards SPOC\n- SC/ST Cell Incharge\n- Mission Practical"
@@ -348,7 +491,16 @@
           "SA Chavan",
           "Prof. Chavan",
           "Lab Location-220",
-          "Computer Lab I"
+          "Computer Lab I","220","Virtual Lab Nodal Technical Coordinator",
+          "State level DSE Paper Presentation Member",
+          "sustainability cell Member",
+          "Canteen Comitee Coordinator",
+          "Discipline Committee Member",
+          "Alumini Comitee Member",
+          "Ezacus Technology Pvt  ltd Sponsor Lab activity",
+          "Cultural Dance Audition Incharge","Girls Common Room Incharge"
+
+          
         ],
         "responses": [
           "Prof.S.A. Chavan\nLab Location-220\nResponsibilities:\n- Computer Lab I Incharge\n- IT DeadStock Incharge\n- Class Coordinator SE Comp B\n- IT News Coordinator\n- Girls Common Room Incharge\n- Mission Practical Incharge\n- Virtual Lab Nodal Technical Coordinator\n- State level DSE Paper Presentation Member\n- Sustainability Cell Member\n- Canteen Comitee Coordinator\n- Discipline Committee Member\n- Deadstock Verification Comitee Member\n- Alumini Comitee Member\n- Ezacus Technology Pvt ltd Sponsor Lab activity\n- Cultural Dance Audition Incharge"
@@ -361,7 +513,11 @@
           "MD KAWADE",
           "Prof. KAWADE",
           "Lab Location-114",
-          "Hardware Lab"
+          "Hardware Lab","114","Gate Coordinator ",
+          "SSDC cell coordinator",
+          "Earn and Learn",
+          "Linux RED HAT Center","Alumini Coordinator of IT dept.","Member of Takarakr Nivaran Samittee","PBL Co-ordinator"
+          
         ],
         "responses": [
           "Prof.M.D. KAWADE\nLab Location-114\nResponsibilities:\n- Member of Takarakr Nivaran Samittee\n- Project Coordinator\n- Alumni Coordinator of IT dept.\n- Digital Lab incharge\n- Cleaning Incharge\n- Class room incharge\n- Acadmic Coordinator\n- Gate Coordinator\n- SSDC cell coordinator\n- Earn and Learn\n- Linux RED HAT Center"
@@ -372,7 +528,15 @@
         "patterns": [
           "Rajnor Sir",
           "DS Rajnor",
-          "Prof. Rajnor"
+          "Prof. Rajnor",
+          "BE Class Coordinator",
+          "Project Coordinator",
+          "Project Lab Incharge",
+          "Dept News Coordinator","Member of Social awareness committee",
+          "Calling committee in charge for chandwad region",
+          "Mentor of Autonous Vehicales Tech Challenge for 2021-23","Member of training and placement cell",
+          "Editor of project booklet PRAKALP",
+          "Auditorium Incharge"
         ],
         "responses": [
           "Prof.D. S. Rajnor\nResponsibilities:\n- BE Class Coordinator\n- Project Coordinator\n- Project Lab Incharge\n- Dept News Coordinator\n- Dept National Anthem Incharge\n- Member of Social awareness committee\n- Calling committee in charge for chandwad region\n- Mentor of Autonous Vehicales Tech Challenge for 2021-23\n- Class Room Incharge\n- Member of training and placement cell\n- Editor of project booklet PRAKALP\n- Auditorium Incharge"
@@ -385,10 +549,15 @@
           "Khyati Mam",
           "KR Nirmal",
           "Prof. Nirmal",
-          "Lab Location-232"
+          "Lab Location-232","232","Department NBA Coordinator",
+          "NBA Criteria 7" ,"Member of College Devlopment Cell",
+          "Digital Marketing Committee member(Image Designer)",
+          "STUDENTS GRIEVANCE REDRESSAL CELL","Research","Paper publication", "copyright","patent"
+          
+          
         ],
         "responses": [
-          "Prof.K.R. Nirmal\nLab Location-232\nResponsibilities:\n- Department NBA Coordinator\n- NBA Criteria 7\n- Computer Laboratory II Lab Incharge\n- Member of College Devlopment Cell\n- Digital Marketing Committee member (Image Designer)\n- STUDENTS GRIEVANCE REDRESSAL CELL"
+          "Prof.K.R. Nirmal\nLab Location-232\nResponsibilities:\n- Department NBA Coordinator\n- NBA Criteria 7\n- Computer Laboratory II Lab Incharge\n- Member of College Devlopment Cell\n- Digital Marketing Committee member (Image Designer)\n- STUDENTS GRIEVANCE REDRESSAL CELL\nResearch,Paper publication, copyright,patent"
         ]
       },
       {
@@ -396,7 +565,18 @@
         "patterns": [
           "Mahale Sir",
           "SB Mahale",
-          "Prof. Mahale"
+          "Prof. Mahale","ERP PC",
+          "Admission Enquiries Incharge (through Website)",
+          "T&P Member",
+          "Event Coordinator",
+          "III Co-cordinator",
+          "Digital Intractive Lab Incharge",
+          "Mentor for TE Students",
+          "Auditorium In-Charge",
+          "NSS Co-Cordinator",
+          "ERP Admission Form Filling Cordinator",
+          "I- Card Setup & Print Cordinator"
+          
         ],
         "responses": [
           "Prof.S. B. Mahale\nResponsibilities:\n- ERP PC\n- Admission Enquiries Incharge (through Website)\n- T&P Member\n- Event Coordinator\n- III Co-cordinator\n- Digital Intractive Lab Incharge\n- Mentor for TE Students\n- Auditorium In-Charge\n- NSS Co-Cordinator\n- ERP Admission Form Filling Cordinator\n- I- Card Setup & Print Cordinator"
@@ -407,7 +587,13 @@
         "patterns": [
           "Bramhecha Sir",
           "AR Bramhecha",
-          "Prof. Bramhecha"
+          "Prof. Bramhecha","Website Coordinator",
+          "TnP Member",
+          "IAITE Student Chapter - coordinator",
+          "SIC Coordinator",
+          "Industrial Visit Coordinator",
+          "Digital Maketing Coordinator"
+          
         ],
         "responses": [
           "Prof.A.R. Bramhecha\nResponsibilities:\n- Website Coordinator\n- TnP Member\n- IAITE Student Chapter - coordinator\n- SIC Coordinator\n- Industrial Visit Coordinator\n- Digital Maketing Coordinator"
@@ -420,7 +606,8 @@
           "Yogita mam",
           "YK Desai",
           "Prof. Desai",
-          "Lab Location-233"
+          "Lab Location-233","233","Exam Co-ordinator",
+          "Oral Incharge","Practical Exam Incharge","University Exam Incharge"
         ],
         "responses": [
           "Prof.Y.K. Desai\nLab Location-233\nResponsibilities:\n- ICC member\n- Central Library Committie Member\n- Mission Writing Skills Coordinator\n- Internal Exam coordinator\n- University OR/PR/Insem Exam Incharge\n- PL Lab Incharge\n- Dept. Library Incharge\n- Notice Board Incharge\n- Website Coordinator"
@@ -433,7 +620,9 @@
           "L.I Surana",
           "Prof. Surana",
           "Lab Location-101",
-          "Programming Lab"
+          "Programming Lab","101","ERP DCC",
+          "ERP Library Module","Computer Center Lab Incharge"
+          
         ],
         "responses": [
           "Prof.L.I. Surana\nLab Location-101\nResponsibilities:\n- ERP DCC\n- ERP Library Module\n- Honour Course Incharge\n- Computer Center Lab Incharge"
@@ -446,7 +635,10 @@
           "Gunjan Deshmukh",
           "Prof. Deshmukh",
           "Lab Location-234",
-          "Computer Laboratory 2"
+          "Computer Laboratory 2","234","Lab Incharge(Linux lab)",
+          "360 Degree",
+          "Admission Duties"
+          
         ],
         "responses": [
           "Prof.Gunjan Deshmukh\nLab Location-234\nResponsibilities:\n- Class Coordinator\n- Lab Incharge(Linux lab)\n- 360 Degree\n- Admission Duties"
@@ -471,12 +663,25 @@
           "Parag Achaliya",
           "Prof. Achaliya",
           "Achaliya Sir",
-          "Lab Location-136"
+          "Lab Location-136","136","Minority Cell","Admission Work"
+
         ],
         "responses": [
           "Prof.Parag Achaliya\nLab Location-136\nResponsibilities:\n- SNJB Website\n- Official Email Coordinator\n- Facebook Coordinator\n- Presentation Preparation\n- Education Loan Counselor\n- Alumni Treasurer\n- Minority Cell\n- Festival Image Design\n- Training & Placement Coordinator\n- Staff Achievement Coordinator\n- Student Achievement Coordinator\n- CAP Data Coordinator\n- Data Coordinator for Various Survey\n- NPTEL Coordinator\n- Admission Work\n- e-Certification Work\n- NSS Cordinator"
-        ]
+        ]  
+      },
+      {
+        "tag": "Class Co-ordinator",
+        "patterns": [
+          "CC","Class Co-ordinator"
+
+        ],
+        "responses": [
+            "SE-A Class- S. V. Sinha\nSE-B Class Coordinator-D. P. Pawar\nTE-A Class Coordinator- D. R. Agarwal\nTE-B Class Coordinator- N. S. Khairnar\nBE-A Class Coordinator- S. B. Ambore\nBE-B Class Coordinator-M. P. Surse"
+            
+        ]  
       }
+      
     ]
   }
   
