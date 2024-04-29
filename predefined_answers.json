@@ -20,7 +20,7 @@
       },
       {
         "tag": "name",
-        "patterns": ["what is your name", "name", "what's your name","who are you","what should I call you"],
+        "patterns": ["what is your name", "name", "what's your name","who are you","what should I call you","What can you do","who r u"],
         "responses": [
           "I'm AI ASSIST FOR SNJB COE(Computer Department)"
         ]
@@ -429,7 +429,7 @@
           
         ],
         "responses": [
-          "Prof.D.P. Pawar\nLab Location-110A\nResponsibilities:\n- Staff Achivement Cordinator\n- Student's Achivement Cordinator\n- Notice Board Incharge\n- Criteria 5\n- Lab Incharge(Programming Lab)\n- E-Saptrang Singing Cordinator\n- Clutural Club Singing Cordinator\n- Counsiling commitee cordinator\n- Criteria 4.6 Cordinator\n- Monthly Report Cordinator\n- Minutes of meeting Co-cordinator"
+          "Prof.D.P. Pawar\nLab Location-110A\nResponsibilities:\n- Staff Achivement Cordinator\n- Student's Achivement Cordinator\n- Notice Board Incharge\n- Criteria 5\n- Lab Incharge(Programming Lab)\n- E-Saptrang Singing Cordinator\n- Clutural Club Singing Cordinator\n- Counsiling commitee cordinator\n- Criteria 4.6 Cordinator\n- Monthly Report Cordinator\n- Minutes of meeting Co-cordinator\nSpace Co-ordinator"
         ]
       },
       {
