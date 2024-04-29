@@ -7,7 +7,6 @@
           "Hey",
           "How are you",
           "what's up",
-          "hi","hey","how's it going",
           "Is anyone there?",
           "Hello",
           "Good day"
@@ -121,10 +120,11 @@
         "tag": "exams",
         "patterns": [
           "What are the exams like?",
-          "What is the exam pattern?"
+          "What is the exam pattern?","Exam Co-ordinator",
+          "Oral Incharge","Practical Exam Incharge","University Exam Incharge","Exam"
         ],
         "responses": [
-          "There are assignments which carry marks.The assignments have deadlines which you shouldn't excede to get better marks.You will also have 2 internals in a sem."
+          "For Exam related information please contact Prof. Y. K. Desai, Exam Co-ordinator, Lab Location-233"
         ]
       },
       
@@ -300,9 +300,7 @@
           "Prof. Agrawal",
           "Lab Location-137",
           "137","NSS",
-          "NPTEL",
           "Virtual Labs",
-          "Unnat Bharat Abhiyaan",
           "TE Class Coordinator",
           "National Anthemn",
           "Data Collection for various surveys",
@@ -333,8 +331,6 @@
           "Alumni Coordinator (College Level)",
           "III Co-cordinator",
           "Cyber Cell Program Lab Incharge",
-          "CSI SBC",
-          "CSI Committee Member (Nashik Chapter)",
           "Digital Marketing Coordinator College Level",
           "Zoom & Youtube Program Coordinator",
           "News Bulletin Coordinator",
@@ -385,7 +381,6 @@
           "Lab Location-137",
           "Networking Lab",
           "137","T & P Co-ordinator",
-          "Gate Exam Co-ordinator",
           "University OR/PR/Insem Exam Incharge",
           "Continuous Assessment Sheet",
           "CNL Lab Incharge","Ghanshyam Dhomse","Ghanshyam Sir"
@@ -412,7 +407,7 @@
         ]
       },
       {
-        "tag": "D.P,Pawar",
+        "tag": "D.P.Pawar",
         "patterns": [
           "Pawar Mam",
           "D.P. Pawar",
@@ -512,10 +507,10 @@
           "M.D. KAWADE",
           "Prof. KAWADE",
           "Lab Location-114",
-          "Hardware Lab","114","Gate Coordinator ",
+          "Hardware Lab","114",
           "SSDC cell coordinator",
           "Earn and Learn",
-          "Linux RED HAT Center","Alumini Coordinator of IT dept.","Member of Takarakr Nivaran Samittee","PBL Co-ordinator","Maduri Kawade"
+          "Linux RED HAT Center","Alumini Coordinator of IT dept.","Member of Takarakr Nivaran Samittee","Maduri Kawade"
           
         ],
         "responses": [
@@ -529,11 +524,10 @@
           "D.S. Rajnor",
           "Prof. Rajnor",
           "BE Class Coordinator",
-          "Project Coordinator",
           "Project Lab Incharge",
           "Dept News Coordinator","Member of Social awareness committee",
           "Calling committee in charge for chandwad region",
-          "Mentor of Autonous Vehicales Tech Challenge for 2021-23","Member of training and placement cell",
+          "Mentor of Autonous Vehicales Tech Challenge for 2021-23",
           "Editor of project booklet PRAKALP",
           "Auditorium Incharge"
         ],
@@ -551,7 +545,7 @@
           "Lab Location-232","232","Department NBA Coordinator",
           "NBA Criteria 7" ,"Member of College Devlopment Cell",
           "Digital Marketing Committee member(Image Designer)",
-          "STUDENTS GRIEVANCE REDRESSAL CELL","Research","Paper publication", "copyright","patent","Khyati Niraml","Dr.Khyati Nirmal"
+          "STUDENTS GRIEVANCE REDRESSAL CELL","Research","Paper publication", "copyright","patent","Khyati Nirmal","Dr.Khyati Nirmal"
           
           
         ],
@@ -566,7 +560,6 @@
           "S.B. Mahale",
           "Prof. Mahale","ERP PC",
           "Admission Enquiries Incharge (through Website)",
-          "T&P Member",
           "Event Coordinator",
           "III Co-cordinator",
           "Digital Intractive Lab Incharge",
@@ -587,7 +580,6 @@
           "Bramhecha Sir",
           "A.R. Bramhecha",
           "Prof. Bramhecha","Website Coordinator",
-          "TnP Member",
           "IAITE Student Chapter - coordinator",
           "SIC Coordinator",
           "Industrial Visit Coordinator",
@@ -672,7 +664,7 @@
       {
         "tag": "Class Co-ordinator",
         "patterns": [
-          "CC","Class Co-ordinator"
+          "CC","Class Co-ordinator","SE","SE CC","SE Class Coordinator","TE","TE CC","TE Class Coordinator","BE","BE CC","BE Class Coordinator"
 
         ],
         "responses": [
@@ -705,15 +697,65 @@
         {
         "tag": "GSI",
         "patterns": [
-          "Girls Sports Incharge","Sports","Girls Sport"
+          "Girls Sports Incharge","Sports","Girls Sport","GSI"
 
         ],
         "responses": [
             "For Girls Sports Incharge Related Information Contact to Nilam Khairnar Mam At Lab No.132"
             
         ]  
+      },
+      {
+      "tag": "CSI",
+      "patterns": ["CSI SBC",
+      "CSI Committee Member (Nashik Chapter)","Computer Society of India","CSI"],
+      "responses":["For details regarding the Computer Society of India (CSI) please contact R. R. Bhandari Sir, Lab No. "]
+      },
+      {
+        "tag":"Higher Studies",
+        "patterns":["Higher Education","M.E","M.Tech","Higher Studies"],
+        "responses":["For details regarding higher education please contact S.V.Sinha Mam, Lab No. 119"]
+      },
+      {
+        "tag":"Unnat Bharat Abhiyaan",
+        "patterns":["Unnat Bharat Abhiyaan"],
+        "responses":["For details regarding the Unnat Bharat Abhiyaan please contact Prof. D. R. Agarwal, Lab No. 137"]
+      },
+      {
+        "tag":"NPTEL",
+        "patterns":["NPTEL","NPTEL Coordinator"],
+        "responses":["For details regarding the NPTEL please contact Prof. D. R. Agarwal, Lab No. 137"]
+      },
+      {
+        "tag":"Training and Placement",
+        "patterns":["Training and Placement","TnP","T&P","Placement Office","Placement","Training"],
+        "responses":["For details regarding Training and Placement please contact one of the following: D.S.Rajnor - Lab No. 133,\n Parag Achaliya - Lab No. 136,\n ,\n A.R.Bramhecha,G.P. Dhomse Lab Location-137    "]
+      },
+      {
+        "tag":"Gate",
+        "patterns":["Gate Exam Co-ordinator","Gate"],
+        "responses":["For details regarding Gate Exam please contact Prof. G. P. Dhomse - Lab No. 137 or Prof. M. D. Kawade - Lab No. 144"]
+      },
+      {
+        "tag":"SPACE",
+        "patterns":["SPACE","Student Club"],
+        "responses":["For details regarding the SPACE club please contact Prof. D. P. Pawar - Lab No. 110A"]
+      },
+      {
+        "tag":"Project Co-ordinator",
+        "patterns":["Project Co-ordinator","PBL","Project Based Learning","Project"],
+        "responses":["For details regarding Project Based Learning please contact Prof. M. D. Kawade - Lab No. 144"]
+      },
+      {
+        "tag":"AR",
+        "patterns":["Ragging","Anti-ragging"],
+        "responses":["For details regarding Anti-Raging please contact Prof. N.S.Khairnar - Lab No. 132"]
+      },
+      {
+        "tag":"PC",
+        "patterns":["Principal","College Principal","Principal Cabin","Principal of college"],
+        "responses":["Dr.R.G. Tated is principal of SNJB's LATE Sau K.B. Jain College Of Engineering\nHe is renowned for his work in the field of education and has been serving the college for many years.\nHe is a great leader and has been a source of inspiration for many students."]  
       }
-      
     ]
   }
   
