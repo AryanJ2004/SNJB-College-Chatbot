@@ -753,7 +753,7 @@
       },
       {
         "tag":"PC",
-        "patterns":["Principal","College Principal","Principal Cabin","Principal of college"],
+        "patterns":["Principal","College Principal","Principal Cabin","Principal of college","principle","principle of college"],
         "responses":["Dr.R.G. Tated is principal of SNJB's LATE Sau K.B. Jain College Of Engineering\nHe is renowned for his work in the field of education and has been serving the college for many years.\nHe is a great leader and has been a source of inspiration for many students."]  
       }
     ]
