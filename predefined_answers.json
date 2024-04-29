@@ -206,7 +206,6 @@
           "Khairnar Mam ",
           "Lab Location-132",
           "132",
-          "Girls Sports Incharge",
           "Anti Ragging Sqaud",
           "Discipline Committee Member",
           "Digital Resource Cell Member",
@@ -678,6 +677,39 @@
         ],
         "responses": [
             "SE-A Class- S. V. Sinha\nSE-B Class Coordinator-D. P. Pawar\nTE-A Class Coordinator- D. R. Agarwal\nTE-B Class Coordinator- N. S. Khairnar\nBE-A Class Coordinator- S. B. Ambore\nBE-B Class Coordinator-M. P. Surse"
+            
+        ]  
+      },
+        {
+        "tag": "TTC",
+        "patterns": [
+          "Time Table Incharge","Time Table"
+
+        ],
+        "responses": [
+            "For Time-Table Related Information Contact to Nilam Khairnar Mam At Lab No.132"
+            
+        ]  
+      },
+        {
+        "tag": "TTC",
+        "patterns": [
+          "Time Table Incharge","Time Table"
+
+        ],
+        "responses": [
+            "For Time-Table Related Information Contact to Nilam Khairnar Mam At Lab No.132"
+            
+        ]  
+      },
+        {
+        "tag": "GSI",
+        "patterns": [
+          "Girls Sports Incharge","Sports","Girls Sport"
+
+        ],
+        "responses": [
+            "For Girls Sports Incharge Related Information Contact to Nilam Khairnar Mam At Lab No.132"
             
         ]  
       }
