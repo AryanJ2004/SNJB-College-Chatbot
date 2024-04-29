@@ -22,7 +22,7 @@
         "tag": "name",
         "patterns": ["what is your name", "name", "what's your name","who are you","what should I call you","What can you do","who r u"],
         "responses": [
-          "I'm AI ASSIST FOR SNJB COE(Computer Department)"
+          "I'm AI ASSIST FOR SNJB COE(Computer Department)\nI Can give you important information our college staff,lab locations and responsiblities of staff"
         ]
       },
       {
