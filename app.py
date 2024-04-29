@@ -6,12 +6,13 @@ import os
 import json
 import random
 
+# Load environment variables
 load_dotenv()
 
 # Initialize the Flask app
 app = Flask(__name__)
 
-# Load predefined responses from JSON file
+# Load predefined responses from a JSON file
 with open('predefined_answers.json', 'r') as file:
     predefined_answers = json.load(file)
 
@@ -34,47 +35,35 @@ def chat():
 
 # Function to get the response for a given input text
 def get_chat_response(text):
-    # Check if the question is predefined
-    for question in predefined_answers["questions"]:
-        if any(tag.lower() == text.lower() for tag in question.get("patterns", [])):
-            return random.choice(question["responses"])
-    
-    # If not, find the closest matching question using fuzzywuzzy
+    # Make the input lowercase for case-insensitive comparison
+    text_lower = text.lower()
+
+    # Find the closest matching question using fuzzywuzzy
     matching_patterns = [pattern.lower() for question in predefined_answers["questions"] for pattern in question.get("patterns", [])]
-    closest_match, score = process.extractOne(text.lower(), matching_patterns)
+    closest_match, score = process.extractOne(text_lower, matching_patterns)
     
-    # If the similarity score is above a certain threshold (e.g., 90), use the closest match
-    if score >= 90 and closest_match == text.lower():
+    # Check if the similarity score is above a certain threshold (e.g., 80)
+    # Setting a lower threshold to allow for some spelling errors or typos
+    threshold = 90  # Adjusted threshold for fuzzy matching
+    if score >= threshold:
         for question in predefined_answers["questions"]:
             if closest_match in [tag.lower() for tag in question.get("patterns", [])]:
                 return random.choice(question["responses"])
     
-    # If the similarity score is below the threshold, continue with the chatbot model
+    # If no close match, generate a response using the AI model
     try:
-        response = model.generate_content(text)
-        responses = []
-        
-        # Check if the response has multiple parts
-        if response.candidates and response.candidates[0].content.parts:
-            # Access the parts of the response
-            for part in response.candidates[0].content.parts:
-                # Check if part is code, if so, wrap it with <code> tags
-                if "```" in part.text:
-                    part_text = part.text.replace("```", "")
-                    responses.append(f"<code>{part_text}</code>")
-                else:
-                    responses.append(part.text)
-            formatted_response = "\n\n".join(responses)
+        response = model.generate_content(text)  # Generative AI call
+        if response.candidates and response.candidates[0].content:
+            formatted_response = response.candidates[0].content.parts[0].text
         else:
-            # Handle the case when there are no candidates or no parts in the response
-            formatted_response = "No suitable response found."
-        
+            formatted_response = "I don't know the answer to that."
+
         return formatted_response
     except Exception as e:
         if "timeout" in str(e).lower():
-            return "Sorry, I couldn't find an answer. The GenerativeAI API timed out. Please try again later."
+            return "Sorry, the GenerativeAI API timed out. Please try again later."
         else:
-            raise
+            return "An error occurred. Please try again later."
 
 if __name__ == "__main__":
     app.run(debug=True)
